@@ -369,7 +369,7 @@ async function sendUsingPageModule(
 
         let referenceHelpers;
         try {
-          let referenceHelpers = runtime(53045);
+          referenceHelpers = runtime(53045);
         } catch {
           referenceHelpers = null;
         }
